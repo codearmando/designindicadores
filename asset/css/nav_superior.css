@@ -77,8 +77,12 @@ nav li:hover ul{
 /*------------------------SIDEBAR--------------- */
 /* ------------------------------------- */
 .cont-sidebar{
-    /* z-index: -200; */
+    z-index: -200;
     /* display: none; */
+    position: absolute;
+}
+.cont-sidebar.activ_cont_sidebar{
+    z-index: 200;
     position: absolute;
 }
 .cont-sidebar .sidebar{
@@ -91,7 +95,7 @@ nav li:hover ul{
     /* padding:20px; */
     box-shadow: 2px 2px 6px rgba(13, 32, 67, 0.53);
     transform:translate(-100%);
-    z-index: 200;
+    z-index: 500;
     transition:.3s ease-in;
 
     /* position para el btn_clouse */

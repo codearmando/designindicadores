@@ -117,6 +117,7 @@
             // let icono_menu= document.getElementById('icono_menu');
             // icono_menu.addEventListener('click', () =>{
             document.getElementById('sidebar').classList.add('activ_sidebar');
+            document.querySelector('.cont-sidebar').classList.add('activ_cont_sidebar');
             // });
         }
 
@@ -125,6 +126,7 @@
             // let clouse_bar= document.getElementById('clouse_bar');
             // clouse_bar.addEventListener('click', () =>{
             document.getElementById('sidebar').classList.remove('activ_sidebar');
+            document.querySelector('.cont-sidebar').classList.remove('activ_cont_sidebar');
             // });
         }
     </script>

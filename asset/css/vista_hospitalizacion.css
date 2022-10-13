@@ -1,0 +1,55 @@
+/* .cont_hospitalizacion{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 4.5rem;
+}  */
+.mini_encabezado{
+    width: 100%;
+    padding: 5px ;
+    background: rgb(248, 154, 154);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.modulo_hospitalizacion{
+    width: 90%;
+    margin: auto;
+}
+.modulo_hospitalizacion .tit{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.modulo_hospitalizacion .cont_general{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 2rem;
+}
+.modulo_hospitalizacion .cont_general .camas{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.modulo_hospitalizacion .cont_general .camas .disp{
+    margin: 0 10px;
+}
+.modulo_hospitalizacion .cont_general .camas .cdo{
+    background: red;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    display: block;
+
+
+}
+.modulo_hospitalizacion .cont_general .camas .cdo h6{
+    color: white;
+
+}
+

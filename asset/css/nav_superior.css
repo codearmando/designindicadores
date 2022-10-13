@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* para poder adaptarse a la unificación  */
+/* .barra_superio{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    
+} */
 nav{
     width:100%;
     background: rgb(209, 35, 35);
@@ -69,18 +76,22 @@ nav li:hover ul{
 /* ------------------------------------------------ */
 /*------------------------SIDEBAR--------------- */
 /* ------------------------------------- */
-
+.cont-sidebar{
+    /* z-index: -200; */
+    /* display: none; */
+    position: absolute;
+}
 .cont-sidebar .sidebar{
     /* position:absolute;
     top:0; */
     max-width:300px;
-    height:100vh;
+    height:100%;
     background:rgb(22, 22, 22);
     color:#fff;
     /* padding:20px; */
     box-shadow: 2px 2px 6px rgba(13, 32, 67, 0.53);
-
     transform:translate(-100%);
+    z-index: 200;
     transition:.3s ease-in;
 
     /* position para el btn_clouse */
@@ -100,7 +111,8 @@ nav li:hover ul{
 }
 .cont-sidebar .sidebar.activ_sidebar{
     transform:translate(0%);
-    transition:.3s ease-in;
+    transition:.3s ease-in; 
+
 }
 .cont-sidebar .sidebar .encabezado_sidebar{
     padding:50px 0;
